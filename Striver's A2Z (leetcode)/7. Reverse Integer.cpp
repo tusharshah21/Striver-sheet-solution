@@ -1,6 +1,6 @@
 // Link: https://leetcode.com/problems/reverse-integer/
 
-// Time complexity: O(n)
+// Time complexity: O(log x)
 // Space complexity: O(1)
 
 class Solution {
