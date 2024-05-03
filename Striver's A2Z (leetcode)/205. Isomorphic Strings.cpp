@@ -3,6 +3,7 @@
 // Time complexity: O(n)
 // Space complexity: O(1)   
 
+
 class Solution {
 public:
     bool isIsomorphic(string str1, string str2) {
