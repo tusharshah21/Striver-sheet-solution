@@ -7,17 +7,15 @@
 class Solution {
 public:
     string frequencySort(string s) {
-        int n = s.length();
-        int low = 0;
-        unordered_map<char, int> mp;
-        for (int i = 0; i < n; i++) {
-            mp[s[i]]++;
-        }
-        for (auto x : mp) {
-            while (x.second--) {
-                s[low++] = x.first;
-            }
-        }
-        return s;
+        unordered_map<char,int> mp;
+        multimap<int,char> r;
+        string ss="";
+        for(auto a : s)
+            mp[a]++;
+        for(auto a : mp)
+            r.insert({a.second, a.first});
+        for(auto it = r.rbegin(); it != r.rend(); ++it)
+            ss += string(it->first, it->second);
+        return ss;
     }
 };
