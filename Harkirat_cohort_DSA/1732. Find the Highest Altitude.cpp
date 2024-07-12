@@ -3,6 +3,8 @@
 // Time complexity: O(n)
 // Space complexity: O(1)
 
+// Optimal Version
+
 class Solution {
 public:
     int largestAltitude(vector<int>& gain) {
