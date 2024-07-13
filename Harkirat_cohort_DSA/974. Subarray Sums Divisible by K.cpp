@@ -3,6 +3,8 @@
 // Time complexity: O(n)
 // Space complexity: O(1)
 
+//Optimal solution 
+
 class Solution {
 public:
     int subarraysDivByK(vector<int>& nums, int k) {
