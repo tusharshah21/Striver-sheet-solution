@@ -1,3 +1,4 @@
+// Link: https://leetcode.com/problems/power-of-two
 
 class Solution {
 public:
